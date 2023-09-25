@@ -7,9 +7,10 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
-
+     int min
+     int max
+cout>>"enter two numbers"
+    cin<<min<<max;
     char playAgain;
     
     do {
@@ -49,3 +50,4 @@ int main() {
     
     return 0;
 }
+//Rehan Singhal
