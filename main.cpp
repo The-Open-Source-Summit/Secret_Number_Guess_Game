@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+    int minNumber,maxNumberl;
     srand(time(0));
     const int minNumber = 1;
     const int maxNumber = 100;
@@ -46,6 +47,6 @@ int main() {
     } while (playAgain == 'Y' || playAgain == 'y');
     
     cout << "Thanks for playing! Goodbye." << endl;
-    
+    yatiin patil
     return 0;
 }
