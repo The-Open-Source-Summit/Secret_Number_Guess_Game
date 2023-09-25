@@ -7,10 +7,13 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    const int minNumber;
+    const int maxNumber;
+
 
     char playAgain;
+    cout<<"Enter the max number and min mumber\n";
+    cin>>maxNumber>>minNumber;
     
     do {
         int secretNumber = rand() % (maxNumber - minNumber + 1) + minNumber;
@@ -49,3 +52,4 @@ int main() {
     
     return 0;
 }
+arnab chowdhury
