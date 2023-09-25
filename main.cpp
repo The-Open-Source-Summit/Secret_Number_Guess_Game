@@ -6,9 +6,12 @@
 using namespace std;
 
 int main() {
+    int max,min;
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    cout<<"Enter lowest number"<<endl;
+    cout<<"Enter highest number"<<endl;
+    cin>>min;
+    cin>>max;
 
     char playAgain;
     
