@@ -11,6 +11,9 @@ int minNumber,maxNumber;
     cin>>minNnumbr;
     cin>>maxNumber;
 
+    cout<<"Enter the minimum number and the maximum number"<<endl;
+    cin>>minNumber>>maxNumber;
+
     char playAgain;
     
     do {
@@ -50,3 +53,4 @@ int minNumber,maxNumber;
     
     return 0;
 }
+\\Anivart Mandloi
