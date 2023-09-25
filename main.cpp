@@ -9,6 +9,7 @@ int main() {
     srand(time(0));
     const int minNumber = 1;
     const int maxNumber = 100;
+const int a=4;
 
     char playAgain;
     
