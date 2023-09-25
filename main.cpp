@@ -7,8 +7,12 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    int min,max;
+    //Shagun Mantri
+    cout<<"Enter Minimum Number"<<endl;
+    cin>>min;
+    cout<<"Enter Maximum Number"<<endl;
+    cin>>max;
 
     char playAgain;
     
