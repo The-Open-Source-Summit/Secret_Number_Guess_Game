@@ -7,9 +7,10 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
-
+    const int minNumber;
+    const int maxNumber;
+    cin>>minNumber;
+    cin>>maxNumber;
     char playAgain;
     
     do {
@@ -40,7 +41,7 @@ int main() {
                 break;
             }
         }
-        
+        Niyati Sabalpara
         cout << "Do you want to play again? (Y/N): ";
         cin >> playAgain;
     } while (playAgain == 'Y' || playAgain == 'y');
