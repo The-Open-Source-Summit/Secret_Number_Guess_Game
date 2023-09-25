@@ -7,10 +7,15 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    int minNumber = 1;
+    int maxNumber = 100;
 
     char playAgain;
+    cout<<"Enter minimum number::";
+    cin>>minNumber;
+    cout<<"Enter maximum number::";
+    cin>>maxNumber;
+    
     
     do {
         int secretNumber = rand() % (maxNumber - minNumber + 1) + minNumber;
@@ -49,3 +54,4 @@ int main() {
     
     return 0;
 }
+/*Niyati Sabalpara*/
