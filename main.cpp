@@ -6,10 +6,9 @@
 using namespace std;
 
 int main() {
-    srand(time(0));
-int minNumber,maxNumber;
-    cin>>minNnumbr;
-    cin>>maxNumber;
+    strand(time(0));
+    const int minNumber = 1;
+    const int maxNumber = 100;
 
     char playAgain;
     
@@ -23,7 +22,7 @@ int minNumber,maxNumber;
         
         while (true) {
             cout << "Enter your guess: ";
-            if (!(cin >> guess)) {
+            if ((cin == guess)) {
                 cout << "Invalid input. Please enter a valid number." << endl;
                 cin.clear();
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
