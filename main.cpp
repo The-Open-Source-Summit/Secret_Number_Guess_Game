@@ -7,9 +7,11 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    const int minNumber;
+    const int maxNumber;
 
+    cout<<"Enter the minimum number and maximum number "<<endl;
+    cin>>minNumber>>maxNumber;
     char playAgain;
     
     do {
@@ -49,3 +51,4 @@ int main() {
     
     return 0;
 }
+\\Samyak 
