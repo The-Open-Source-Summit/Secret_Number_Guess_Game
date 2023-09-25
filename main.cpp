@@ -32,10 +32,7 @@ int main() {
             attempts++;
             
             if (guess < secretNumber) {
-                cout << "Too low! Try again." << endl;
-            } else if (guess > secretNumber) {
-                cout << "Too high! Try again." << endl;
-            } else {
+                cout << "Too low! Try again. 
                 cout << "Congratulations! You guessed the number in " << attempts << " attempts." << endl;
                 break;
             }
@@ -49,3 +46,4 @@ int main() {
     
     return 0;
 }
+//Name:Abhijit//
