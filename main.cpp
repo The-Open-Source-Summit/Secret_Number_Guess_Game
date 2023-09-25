@@ -6,9 +6,12 @@
 using namespace std;
 
 int main() {
+    int i,j;
+    cout<<"Enter the starting and ending respectievely : ";
+    cin>>i>>j;
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    const int minNumber = i;
+    const int maxNumber = j;
 
     char playAgain;
     
