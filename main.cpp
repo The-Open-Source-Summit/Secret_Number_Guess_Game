@@ -7,8 +7,13 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    const int minNumber = n;
+    const int maxNumber = m;
+
+    cout<<"enter min num"<<endl;
+    cin>>n;
+    cout<<"Enter Max num"<<endl;
+    cin>>m;
 
     char playAgain;
     
