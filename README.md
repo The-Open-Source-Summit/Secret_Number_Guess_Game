@@ -51,6 +51,6 @@ We welcome contributions from the open-source community, especially beginners! I
 
 This project was born out of a love for coding and a desire to make learning C++ fun! Enjoy the game and let the guessing games begin! 🎉
 ```
-
+Yatin patil
 Feel free to further customize and enhance this README to match the spirit and personality of your project!
 Gauri Mathur
