@@ -7,11 +7,15 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    int minNumber;
+    int maxNumber;
 
     char playAgain;
-    
+
+    cout << "Enter the lower limit: " ;
+    cin >> minNumber;
+    cout << "Enter the upper limit: ";
+    cin >> maxNumber;
     do {
         int secretNumber = rand() % (maxNumber - minNumber + 1) + minNumber;
         int attempts = 0;
