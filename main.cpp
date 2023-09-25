@@ -6,9 +6,11 @@
 using namespace std;
 
 int main() {
-    srand(time(0));
+    srand(time(0)),n;
     const int minNumber = 1;
-    const int maxNumber = 100;
+    const int maxNumber = 1000;
+    cout<<"Enter the numbes\n";
+        cin>>n;
 
     char playAgain;
     
