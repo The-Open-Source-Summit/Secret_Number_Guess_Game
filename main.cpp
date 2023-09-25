@@ -10,7 +10,7 @@ int main() {
 int minNumber,maxNumber;
     cin>>minNnumbr;
     cin>>maxNumber;
-
+1
     char playAgain;
     
     do {
